@@ -18,14 +18,13 @@ collections:
       - { label: 'readTime', name: 'readTime', widget: 'string'}
       - { label: 'thumbnail', name: 'thumbnail', widget: 'image'}
       - { label: 'featureImage',name: 'featureImage',  widget: 'image'}
-
-      
-      - label: "Tags"
+    
+      - { label: "Tags"
         name: "tags"
         widget: "list"
         field: {label: "Tag", name: "tag_name", widget: "string"}  
 
-        - label: "Featured"
+      - { label: "Featured"
           name: "tranding"
           widget: "list"
           field: {label: "Featured", name: "false", widget: "string"}
