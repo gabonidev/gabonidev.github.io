@@ -1,5 +1,5 @@
 ---
-title: Welcome to My Personal Blog
+title: Welcome to My Personal Blogger
 date: 2021-01-13T17:33:14+06:00
 readTime: 2 min
 tranding: "true"
