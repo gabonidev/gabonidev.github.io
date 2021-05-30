@@ -14,7 +14,7 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      
       - { label: 'readTime', name: 'readTime', widget: 'string'}
       - { label: 'thumbnail', name: 'thumbnail', widget: 'image'}
       - { label: 'featureImage',name: 'featureImage',  widget: 'image'}
