@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://kind-bhaskara-9e8f2f.netlify.app/"
 languageCode = "en-us"
 paginate = 6
 summarylength = 10
