@@ -18,6 +18,14 @@ collections:
       - { label: 'readTime', name: 'readTime', widget: 'string'}
       - { label: 'thumbnail', name: 'thumbnail', widget: 'image'}
       - { label: 'featureImage',name: 'featureImage',  widget: 'image'}
-      - { label: 'tranding', name: 'tranding',  widget: 'list', default: 'true'}
-      - { label: 'tags', name: 'tags',  widget: 'list', default: 'news'}
+
+      
+      - label: "Tags"
+  name: "tags"
+  widget: "list"
+  field: {label: "Tag", name: "tag_name", widget: "string"}  
+
+  
+
+
       - { label: 'Body', name: 'body', widget: 'markdown' }
