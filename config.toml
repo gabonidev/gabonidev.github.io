@@ -2,7 +2,7 @@ baseURL = "https://kind-bhaskara-9e8f2f.netlify.app/"
 languageCode = "en-us"
 paginate = 6
 summarylength = 10
-title = "Blogge | Personal Blog Template"
+title = "Kleekee"
 theme = "blogge-hugo-theme"
 
 [menu]
@@ -21,7 +21,7 @@ theme = "blogge-hugo-theme"
 
 [params]
   summarylength = 80
-  logo = "images/logo.svg"
+  logo = "images/logo.png"
   author = "Mary Astor"
   authorThumb = "images/author.png"
   authorAddress = "Lorem 142 Str., 2352, Ipsum, State, USA"
