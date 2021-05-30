@@ -25,7 +25,10 @@ collections:
   widget: "list"
   field: {label: "Tag", name: "tag_name", widget: "string"}  
 
-  
+        - label: "Featured"
+  name: "tranding"
+  widget: "list"
+  field: {label: "Featured", name: "false", widget: "string"}
 
 
       - { label: 'Body', name: 'body', widget: 'markdown' }
