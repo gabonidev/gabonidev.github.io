@@ -2,7 +2,7 @@
 title: Welcome to My Personal Blogger
 date: 2021-01-12T11:33:14.000Z
 readTime: 2 min
-tranding: true
+tranding: "false"
 tags: life
 thumbnail: /images/830562.jpg
 featureImage: /images/blog/blog-single.png
