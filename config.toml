@@ -3,7 +3,7 @@ languageCode = "en-us"
 paginate = 5
 summarylength = 10
 title = "Kleekee"
-theme = "blogge-hugo-theme"
+theme = "klekee-theme"
 
 [menu]
   [[menu.main]]
