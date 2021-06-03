@@ -6,20 +6,20 @@ logo_url: https://klekee.netlify.app/images/logo.png
 media_folder: static/images
 public_folder: /images
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/posts'
+  - name: "blog"
+    label: "Blog"
+    folder: "content/posts"
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
       preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'readTime', name: 'readTime', widget: 'string'}
-      - { label: 'Featured' , name: 'tranding', widget: 'string' }
-      - { label: 'thumbnail', name: 'thumbnail', widget: 'image'}
-      - { label: 'featureImage',name: 'featureImage',  widget: 'image'}
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "readTime", name: "readTime", widget: "string"}
+      - { label: "Featured" , name: "tranding", widget: "string" }
+      - { label: "thumbnail", name: "thumbnail", widget: "image"}
+      - { label: "featureImage",name: "featureImage",  widget: "image"}
+      - { label: "Body", name: "body", widget: "markdown" }
       
     
