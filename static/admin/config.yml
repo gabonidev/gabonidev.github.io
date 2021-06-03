@@ -21,8 +21,5 @@ collections:
       - { label: 'thumbnail', name: 'thumbnail', widget: 'image'}
       - { label: 'featureImage',name: 'featureImage',  widget: 'image'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Featured' ,name: 'tranding' , widget: 'select' }
-    options:
-      - { label: 'True', value: 'true' }
-      - { label: 'False', value: 'false' }
-             
+      - { label: 'Featured' , name: 'tranding' , widget: 'select' }
+    
