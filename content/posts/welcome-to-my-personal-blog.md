@@ -6,7 +6,7 @@ tranding: "false"
 tags: life
 thumbnail: /images/830562.jpg
 featureImage: /images/blog/blog-single.png
-featured: true
+featured: false
 ---
 ![]()
 
