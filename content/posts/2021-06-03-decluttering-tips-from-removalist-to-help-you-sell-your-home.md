@@ -3,7 +3,7 @@ title: Decluttering Tips from Removalist to Help You Sell Your Home
 date: 2021-06-03T20:16:22.257Z
 readTime: 8 min
 tranding: "true"
-featured: "false"
+featured: "true"
 thumbnail: /images/removalist-moving-couch.jpg
 featureImage: /images/removal.jpg
 tags: removalist
