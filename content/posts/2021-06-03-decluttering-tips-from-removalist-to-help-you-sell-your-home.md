@@ -3,9 +3,9 @@ title: Decluttering Tips from Removalist to Help You Sell Your Home
 date: 2021-06-03T20:16:22.257Z
 readTime: 8 min
 tranding: "true"
+featured: "false"
 thumbnail: /images/removalist-moving-couch.jpg
 featureImage: /images/removal.jpg
-featured: true
 tags: removalist
 ---
 Don't rely on your real estate agent to do all of the legwork when it comes to maximizing the sale price of your home. If you want to make a significant impact on the aesthetic of your home, you'll need to get your hands dirty, and there's no better way to do that than by decluttering it from top to bottom.
