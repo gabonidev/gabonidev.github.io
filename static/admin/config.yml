@@ -19,7 +19,13 @@ collections:
       
       - { label: 'readTime', name: 'readTime', widget: 'string'}
       - { label: 'Featured', name: 'tranding', widget: 'string'}
-      - { label: 'Tags', name: 'tags', widget: 'string'}
       - { label: 'thumbnail', name: 'thumbnail', widget: 'image'}
       - { label: 'featureImage',name: 'featureImage',  widget: 'image'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "Featured"
+            name: "tranding"
+            widget: "select"
+            options:
+            - { label: "True", value: "true" }
+            - { label: "False", value: "false" }
+             
