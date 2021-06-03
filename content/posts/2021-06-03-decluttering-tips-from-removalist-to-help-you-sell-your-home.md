@@ -6,6 +6,7 @@ tranding: "true"
 tags: removalist
 thumbnail: /images/removalist-moving-couch.jpg
 featureImage: /images/removal.jpg
+featured: true
 ---
 Don't rely on your real estate agent to do all of the legwork when it comes to maximizing the sale price of your home. If you want to make a significant impact on the aesthetic of your home, you'll need to get your hands dirty, and there's no better way to do that than by decluttering it from top to bottom.
 
