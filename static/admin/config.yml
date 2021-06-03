@@ -17,7 +17,6 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'readTime', name: 'readTime', widget: 'string'}
-      - { label: 'Featured', name: 'tranding', widget: 'string'}
       - { label: 'thumbnail', name: 'thumbnail', widget: 'image'}
       - { label: 'featureImage',name: 'featureImage',  widget: 'image'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
