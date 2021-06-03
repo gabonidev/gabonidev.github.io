@@ -48,7 +48,7 @@
           <div class="latest-widget-title">
             <h2>Trending post</h2>
           </div>
-          {{ range $i, $.Site.RegularPages }} {{ if eq .Params.tranding true }}
+          {{ range $i, $.Site.RegularPages }} {{ if eq .Params.tranding "true" }}
           <div class="latest-widget">
             <div class="latest-widget-thum">
               <a href="{{ .Permalink }}" class="post-thumb"
