@@ -8,6 +8,53 @@
   {{ with .Site.Params.author }}
   <meta name="author" content="{{ . }}">
   {{ end }}
+
+  <!-- This site is optimized with the Yoast SEO plugin v6.0 - https://yoast.com/wordpress/plugins/seo/ -->
+  <meta name="description" content="{{ .Params.potongan | truncate 150 }}" />
+  <link rel="canonical" href="{{ .Permalink }}" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}" />
+  <meta property="og:description" content="{{ .Params.potongan }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="og:site_name" content="{{ .Title }}" />
+  {{ range .Params.calon }}<meta property="article:calon" content="{{ . }}" />{{ end }}
+  {{ range .Params.partai }}<meta property="article:partai" content="{{ . }}" />{{ end }}
+  {{ range .Params.daerah }}<meta property="article:daerah" content="{{ . }}" />{{ end }}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}T{{ .Date.Format "15:04:05" }}+07:00" />
+  <meta property="og:image" content="{{ .Site.BaseURL }}wp-content/uploads/{{ .Params.gambar }}.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:description" content="{{ .Params.potongan }}" />
+  <meta name="twitter:title" content="{{ .Title }} - {{ .Site.Title }}" />
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}wp-content/uploads/{{ .Params.gambar }}.jpg" />
+  <script type='application/ld+json'>
+      {
+          "@context": "http:\/\/schema.org",
+          "@type": "WebSite",
+          "@id": "#website",
+          "url": "http:\/\/{{ .Site.Params.url }}\/",
+          "name": "Opini",
+          "potentialAction": {
+              "@type": "SearchAction",
+              "target": "http:\/\/{{ .Site.Params.url }}\/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+          }
+      }
+
+  </script>
+  <script type='application/ld+json'>
+      {
+          "@context": "http:\/\/schema.org",
+          "@type": "Person",
+          "url": "http:\/\/{{ .Site.Params.url }}\/{{ .Title | urlize }}\/",
+          "sameAs": [],
+          "@id": "#person",
+          "name": "{{ .Site.Title }}"
+      }
+
+  </script>
+  <meta name="google-site-verification" content="{{ .Site.Params.gsv }}" />
+  <!-- / Yoast SEO plugin. -->
   {{ hugo.Generator }}
 
   <link rel="stylesheet" href={{ "plugins/font-awesome/css/font-awesome.min.css" | absURL }} />
