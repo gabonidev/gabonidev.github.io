@@ -3,7 +3,7 @@ title: Breaking news post
 date: 2021-01-13T18:11:40+06:00
 readTime: 10 min
 tranding: "true"
-featured: "true"
+featured: "false"
 thumbnail: /images/blog/blog-thum-2.png
 featureImage: /images/blog/feature-image-05.jpg
 tags: news
