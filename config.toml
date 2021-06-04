@@ -21,7 +21,7 @@ theme = "klekee-theme"
 
 [params]
   summarylength = 80
-  logo = "images/logo.png"
+  logo = "images/logo-12.svg"
   author = "Kleekee"
   authorThumb = "images/author.png"
   authorAddress = "Lorem 142 Str., 2352, Ipsum, State, USA"
