@@ -2,7 +2,7 @@ backend:
   name: github
   repo: gabonidev/gabonidev.github.io   # Path to your Github/Gitlab repository
   branch: main # Branch to update (optional; defaults to master)
-
+  base_url: http://satanlove.us
 logo_url: https://klekee.netlify.app/images/logo.png
 media_folder: static/images
 public_folder: /images
