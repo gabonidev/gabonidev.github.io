@@ -4,7 +4,7 @@ backend:
   name: github
   repo: gabonidev/gabonidev.github.io   # Path to your Github/Gitlab repository
   branch: main    # Branch to update
-  base_url: https://klekee.netlify.app # Path to ext auth provider
+  base_url: https://saranlove.us # Path to ext auth provider
 
 logo_url: https://klekee.netlify.app/images/logo.png
 media_folder: static/images
